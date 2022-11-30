@@ -1,0 +1,48 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 42px;
+    height: 82px;
+    width: 100%;
+    padding: 17px 0px 19px 21px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, .2);
+    background-color: #FFFFFF;
+    color:#000000;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input{
+        border:none;
+    }
+
+    ::placeholder{
+        color:#000000;
+    }
+
+    .title{
+        padding-bottom: 7px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom:1px solid #D2D2D2;
+    }
+
+    .description{
+        height: 100%;
+        padding-top: 11px;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    button {
+        background-color: inherit;
+        border: none;
+        padding: 13px 21px 0px 0px;
+    }
+}

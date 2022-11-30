@@ -1,0 +1,25 @@
+header {
+	position: relative;
+	> div {
+		height: 200px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	h1 {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 28px;
+		line-height: 33px;
+		color: #ffffff;
+	}
+}
+.left {
+	background-image: url('../../../images/header-left-light-theme.svg');
+}
+.right {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../../../images/header-light-theme.svg');
+}
